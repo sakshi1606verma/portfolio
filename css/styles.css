@@ -93,8 +93,20 @@
 }
 
 @media(max-width:520px){
+    
     .outer-box{
-        display: grid;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-between;
+    }
+
+    .box{
+        padding:4%;
+        margin-bottom: 15px;
+    }
+
+    #contact{
+        padding: 7% 10%;
     }
 }
